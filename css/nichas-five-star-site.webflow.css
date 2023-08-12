@@ -1,0 +1,131 @@
+.prefix-dropdown_item {
+  grid-column-gap: .375rem;
+  cursor: pointer;
+  align-items: center;
+  padding: .5rem;
+  text-decoration: none;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.prefix-dropdown_item:hover, .prefix-dropdown_item:focus {
+  background-color: #ececec;
+}
+
+.prefix-dropdown_item:focus-visible {
+  outline-style: none;
+}
+
+.prefix-dropdown_item[data-wf-focus-visible] {
+  outline-style: none;
+}
+
+.prefix-dropdown_item.w--current {
+  background-color: #e4e4e4;
+}
+
+.prefix-dropdown_list {
+  width: 100%;
+  max-height: 16rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .05);
+  list-style-type: none;
+  overflow: auto;
+}
+
+.prefix-dropdown_component {
+  flex: none;
+  position: relative;
+}
+
+.prefix-dropdown_chevron {
+  width: .5rem;
+  flex-direction: column;
+  margin-left: auto;
+  display: flex;
+}
+
+.prefix-dropdown_toggle {
+  height: 100%;
+  min-width: 6.5rem;
+  grid-column-gap: .375rem;
+  align-items: center;
+  padding: 0 .5rem;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.prefix-dropdown_toggle:hover, .prefix-dropdown_toggle:focus {
+  background-color: #ececec;
+}
+
+.phone {
+  width: 500px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.button-2 {
+  color: #fff;
+  text-align: center;
+  background-color: #386eec;
+  justify-content: center;
+  align-items: center;
+  padding: .75rem 1.25rem;
+  font-weight: 600;
+}
+
+.phone-form_form {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+  align-items: stretch;
+  display: flex;
+}
+
+.prefix-dropdown_flag {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 999rem;
+  flex: none;
+}
+
+.phone-form_component {
+  margin-bottom: 0;
+}
+
+.text-field {
+  height: auto;
+  background-color: #fff;
+  border-style: none;
+  margin-bottom: 0;
+  padding: .625rem;
+  font-size: 1.125rem;
+}
+
+.text-field::-ms-input-placeholder {
+  color: #acb3b4;
+}
+
+.text-field::placeholder {
+  color: #acb3b4;
+}
+
+.prefix-dropdown_list-wrapper {
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: .5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+
